@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+.section{
+    margin: 40px;
+}
+.section-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.section-content{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.menu{
+    text-transform: uppercase;
+    font-weight: bold ;
+}
+li{
+    margin: 0 40px 20px 0;
+    font-size: 20px;
+}
+#inline{
+    display: inline-block;
+}
+
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: left;
+    align-items: flex-start;
+}
+.left{
+    padding: 10px;
+    flex: 35%;
+}
+.right{
+    padding: 10px;
+    flex: 65%;
+}
+.flex-container>div{
+    list-style: none;
+}
+.border{
+    border-bottom: 0.2px solid #e2e2e2;
+}
+
+
+
+a:hover{
+    color: aqua;
+}
+.hpl{
+    text-decoration: none;
+}
